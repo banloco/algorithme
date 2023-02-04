@@ -1,0 +1,14 @@
+Algorithme               somme_jusqu_a_100;
+Var: a, resultat: entiers;
+Debut:
+      Ecrire "Entrez un entier";
+      Lire a;
+      resultat <-- a
+      Repeter 
+          Ecrire "Entrez un entier";
+          Lire a;
+          resultat <-- resultat + a;
+          Ecrire resultat;
+      Jusqu'à a >= 100;
+      Ecrire resultat;
+Fin

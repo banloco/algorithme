@@ -1,0 +1,11 @@
+Algorithme               somme_dix_premiers_nombres_avec_pour;
+Var: a, somme: entiers;
+Debut:
+      Somme <-- 0
+      Pour a --> 1 à 10 faire,
+          somme <-- somme + a;
+      Ecrire somme;
+Fin
+
+
+

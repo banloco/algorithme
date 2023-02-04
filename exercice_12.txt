@@ -1,0 +1,12 @@
+Algorithme               aimez_vous_l_informatique;
+Var: reponse: chaine de caractères;
+Debut:
+      Ecrire "Aimez-vous l'informatique?";
+      Lire reponse;
+      Tant que reponse != "oui" ou reponse != "non" faire
+          Ecrire "Mauvaise réponse";
+          Ecrire "Aimez-vous l'informatique?";
+          Lire reponse;
+      FinTantQue
+Fin
+

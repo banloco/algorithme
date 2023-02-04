@@ -1,0 +1,8 @@
+Algorithme               table_des_dix;
+Var: a,b: entiers;
+Debut:
+      Pour a --> 1 à 10 faire,
+          Pour b --> 1 à 10 faire;
+              Ecrire a "*" b "=" a * b;
+Fin
+

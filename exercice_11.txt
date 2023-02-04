@@ -1,0 +1,6 @@
+Algorithme               suite_de_noms;
+Var: : chaine de caractères;
+Debut:
+
+Fin
+

@@ -1,0 +1,10 @@
+Algorithme               valeur_absolue;
+Var: a: entiers;
+Debut:
+      Ecrire "Veuillez entrer un entier";
+      Lire a;
+      Si a < 0 alors,
+        a <-- a * (-1);
+      FinSi
+Fin
+

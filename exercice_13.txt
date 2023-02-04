@@ -1,0 +1,12 @@
+Algorithme               aimez_vous_l_informatique_avec_repeter;
+Var: reponse: chaine de caractères;
+Debut:
+      Ecrire "Aimez-vous l'informatique?";
+      Lire reponse;
+      Repeter 
+          Ecrire "Mauvaise réponse";
+          Ecrire "Aimez-vous l'informatique?";
+          Lire reponse;
+      Jusqu'à reponse != "oui" ou reponse != "non";
+Fin
+

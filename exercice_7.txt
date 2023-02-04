@@ -1,0 +1,25 @@
+Algorithme               plus_grand_nombre;
+Var: a, b, c, grand: entiers;
+Debut:
+      Ecrire "Entrez trois entiers";
+      Lire a,b,c;
+      Si a > b alors,
+        grand <-- a;
+        Sinon si a < b alors,
+             grand <-- b;
+             Sinon Si a = b alors,
+                  grand <-- a;
+             FinSi
+        FinSi
+      FinSi
+      Si grand > c alors,
+        Ecrire grand" est le plus grand";
+        SInon Si grand < c alors,
+             Ecrire c" est le plus grand" 
+             Sinon Si grand = c alors,
+                  Ecrire "les trois nombres sont égaux";
+             FinSi
+        FinSi
+      FinSi
+Fin
+

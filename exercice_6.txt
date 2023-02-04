@@ -1,0 +1,7 @@
+Algorithme               equation_mathematique;
+Var: a,b: entiers;
+Debut:
+      Ecrire "Veuillez entrer deux entiers";
+      Lire a,b;
+Fin
+

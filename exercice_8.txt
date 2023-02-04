@@ -1,0 +1,12 @@
+Algorithme               feux_tricolores_avec_suivant;
+Var: couleur: chaîne de caractères;
+Debut:
+      Ecrire "Entrez une couleur entre rouge orange et vert";
+      Lire couleur;
+      Suivant couleur faire:
+          "rouge" : Ecrire "arrêter";
+          "orange" : Ecrire "ralentir";
+          "vert" : Ecrire "passer";
+          Sinon Ecrire " ";
+      FinSuivant
+Fin

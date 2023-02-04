@@ -1,0 +1,16 @@
+Algorithme               age_mineur;
+Var: annee_de_naissance: entiers;
+Debut:
+      Ecrire "Entrez votre année de naissance";
+      Lire annee_de_naissance;
+      Si annee_de_naissance > 2023 alors,
+        Ecrire "Erreur";
+      FinSi
+      Si (2023 - annee_de_naissance) >= 0 et (2023 - annee_de_naissance) < 10 alors,
+        Ecrire "Vous êtes un mineur";
+      FinSi
+      Si (2023 - annee_de_naissance) > 10 alors,
+        Ecrire "Vous êtes majeur";
+      FinSi
+Fin
+

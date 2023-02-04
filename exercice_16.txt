@@ -1,0 +1,8 @@
+Algorithme               table_de_huit;
+Var: a: entiers;
+Debut:
+      Pour a --> 1 à 10 faire,
+          Ecrire "8 * " a "=" 8 * a;
+Fin
+
+

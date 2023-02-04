@@ -1,0 +1,11 @@
+Algorithme               somme_dix_premiers_nombres;
+Var: somme, a: entiers;
+Debut:
+      a <-- 0
+      Tant que a < 10 faire:
+          somme <-- 0 + a;
+          a <-- a + a;
+      FinTantQue
+      Ecrire somme;
+Fin
+

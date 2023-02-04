@@ -1,0 +1,17 @@
+Algorithme               somme_produit_moyenne;
+Var: menu: chaîne de caractères;
+     a, b, c, resultat: entiers;
+Debut:
+      Ecrire "Entrez trois entiers";
+      Lire a, b, c;
+      Ecrire "Faites un choix de calcul entre 1 2 et 3";
+      Lire mode;
+      Suivant mode faire:
+          "1" : Ecrire a + b + c;
+          "2" : Ecrire a / b / c;
+          "3" : resultat <-- a + b + c
+                Ecrire resultat / 3;
+          Sinon Ecrire " ";
+      FinSuivant
+Fin
+

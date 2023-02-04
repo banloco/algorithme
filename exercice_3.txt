@@ -1,0 +1,14 @@
+Algorithme               plus_grand_nombre;
+Var: a,b: entiers;
+Debut:
+      Ecrire "Veuillez entrez deux entiers";
+      Lire a,b;
+      Si a > b alors,
+        Ecrire a "est plus grand";
+        Sinon si a < b alors,
+             Ecrire b "est plus grand";
+        Sinon si a = b alors,
+             Ecrire b " ";
+      FinSi
+Fin
+
