@@ -1,0 +1,18 @@
+exo 21
+
+Algorithme                   plus_petit_element_du_tableau;
+Var: moy(1:10) : tableau d'entiers;
+     i, petit: entiers;
+Debut:
+      Pour i --> 1 à 10 faire,
+          Si moy[i] < moy[i+1] alors,
+            petit <-- moy[i];
+            Sinon 
+                 Si moy[i] > moy[i+1] alors,
+                   petit <-- moy[i+1];
+                   Sinon
+                        petit <-- moy[i];
+      FinPour
+      Ecrire petit;
+Fin
+

@@ -1,0 +1,12 @@
+exo 20
+
+Algorithme                   addition_des_valeurs_du_tableau;
+Var: moy(1:10) : tableau d'entiers;
+     i, somme: entiers;
+Debut:
+      somme <-- 0
+      Pour i --> 1 à 10 faire,
+          somme <-- somme + moy[i];
+      FinPour
+Fin
+

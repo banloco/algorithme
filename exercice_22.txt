@@ -1,0 +1,14 @@
+exo 22
+
+Algorithme                   noms_d_artistes;
+Var: artiste(1:20) : tableau de caractères;
+     nom: caractères;
+Debut:
+      Ecrire "Entrez un nom d'artiste";
+      Lire nom; 
+      Pour nom --> 1 à 20 faire,
+          Si artiste[nom] = nom alors,
+            Ecrire artiste[nom];
+      FinPour
+      Ecrire petit;
+Fin

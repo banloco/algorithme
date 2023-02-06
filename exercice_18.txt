@@ -1,0 +1,10 @@
+Algorithme                   creation_de_tableau;
+Var: moy(1:10) : tableau d'entiers;
+     i: entiers;
+Debut:
+      Pour i --> 1 à 10 faire,
+          Ecrire "entrez une moyenne";
+          Lire moy[i];
+      FinPour
+Fin
+
